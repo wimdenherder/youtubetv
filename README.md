@@ -21,9 +21,17 @@ You'll find a program in the assets folder.
 
 ## Installation
 
-Clone the repository
 ```
-cd ytload
+git clone git@github.com:wimdenherder/youtubetv.git
+cd youtubetv
 npm install
 npm run start
 ```
+
+You don't need any api keys to run the program.
+
+## Helper scripts
+
+If you want to check if youtube id's still work, you can use the following script: `src/helper/ytExists.js`  
+
+The other script `src/helper/mapSheetToJson.js` is a helper script to get the youtube id's and times from a list of urls.
