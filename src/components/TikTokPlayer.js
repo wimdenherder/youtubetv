@@ -7,6 +7,8 @@ export default function TikTokPlayer({...props}) {
   const [play, setPlay] = useState('false');
   const [playerReady, setPlayerReady] = useState(false);
   useEffect(() => {
+    console.log('props.play',props.play);
+    console.log('playerReady',playerReady);
     if(props.play === true && playerReady === true) {
       setPlay(true);
     }
@@ -19,7 +21,7 @@ export default function TikTokPlayer({...props}) {
     setPlayerReady(true);
   }
   return (
-      <LoadedPlayer 
+      <><LoadedPlayer 
         play={play} 
         start={props.start} 
         end={props.end}
@@ -27,5 +29,6 @@ export default function TikTokPlayer({...props}) {
         onReady={() => playerIsReady()}
         onEnded={() => props.onEnded ? props.onEnded() : ''}
         /> 
+        </>
   );
 }
