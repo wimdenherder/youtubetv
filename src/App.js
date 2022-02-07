@@ -2,7 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import ZapPlayer from './components/ZapPlayer';
 import ReactPlayer from 'react-player';
-import program from './assets/ytIdsExisting';
+import program from './assets/ytIdsExisting.json';
 import { useSearchParams } from 'react-router-dom';
 
 function App() {
