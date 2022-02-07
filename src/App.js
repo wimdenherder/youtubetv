@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState, useEffect } from 'react';
+import ZapPlayer from './components/ZapPlayer';
+import ReactPlayer from 'react-player';
+import program from './assets/ytIdsExisting';
+import { useSearchParams } from 'react-router-dom';
 
 function App() {
+  const bufferSize = 10;
+  let [searchParams, setSearchParams] = useSearchParams();
+  const random = searchParams.get('startIndex') || Math.floor(Math.random() * (program.length - bufferSize));
+  const selectionVideos = program.slice(random,random+bufferSize);
+  console.log('random', random);
+  useEffect(() => {
+    // setSearchParams({ startIndex: random });
+  },[])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <ZapPlayer startIndex={random} program={selectionVideos}/>
+    </>
   );
 }
 

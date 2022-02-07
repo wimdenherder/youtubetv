@@ -1,0 +1,35 @@
+.zapPlayer {
+  background: black;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.loading {
+  background: white;
+  color:black;
+  height: 100%;
+  width: 100%;
+}
+
+.parentCenteredChild {
+  display: flex;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+  height: 100vh;
+}
+
+.playButton {
+  color: white;
+  font-size: 80px !important;
+  cursor: pointer;
+}
+
+.playButton:hover {
+  color: #CCC;
+  font-size: 90px !important;
+}
+
+.absolutely {
+  display: absolute;
+}
