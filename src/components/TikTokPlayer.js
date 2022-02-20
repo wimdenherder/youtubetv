@@ -4,7 +4,7 @@ import './TikTokPlayer.css';
 
 
 export default function TikTokPlayer({...props}) {
-  const [play, setPlay] = useState('false');
+  const [play, setPlay] = useState(false);
   const [playerReady, setPlayerReady] = useState(false);
   useEffect(() => {
     console.log('props.play',props.play);

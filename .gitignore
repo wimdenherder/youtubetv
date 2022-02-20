@@ -24,3 +24,4 @@ yarn-error.log*
 
 src/assets/wim/*
 src/credentials/*
+src/helper/*
