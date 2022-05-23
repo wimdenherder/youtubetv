@@ -1,7 +1,8 @@
-# DEMO
+# See the demo
 
-Check out the demo here: https://tv-3b1b9.web.app/  
-PS: For the first video you have to click the screen (interaction is required to start autoplay), it will automatically zap to a new video after 4-6 seconds. You can also click NEXT on top of the window.  
+Check out the demo here: https://tv-3b1b9.web.app/
+
+PS: You have to click on the first video. The rest will go automatically. It will automatically zap to a new video after 4-6 seconds. You can also click NEXT on top of the window.  
 It preloads YouTube video's so that you can zap tiktok style: immediate playbacks!
 
 # YouTubeTV TikTok Style
