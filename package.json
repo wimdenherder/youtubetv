@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": ">=7.0.0 <8.0.0",
+    "@babel/plugin-syntax-flow": "^7.14.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.3.1",
     "@mui/material": "^5.4.0",
+    "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -19,6 +23,7 @@
     "react-scripts": "5.0.0",
     "react-toastify": "^8.1.1",
     "react-youtube": "^7.14.0",
+    "typescript": ">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
