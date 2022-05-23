@@ -1,11 +1,11 @@
 # DEMO
 
-Check out the demo here: https://tv-3b1b9.web.app/
-It preloads youtube videos, so that you can immediately start watching and zapping through them.
+Check out the demo here: https://tv-3b1b9.web.app/  
+It preloads YouTube video's so that you can zap tiktok style: immediate playbacks!
 
 # YouTubeTV TikTok Style
 
-This react project preloads YouTube video's so that you can zap tiktok style: immediate playbacks! At the top of the screen you can click 'NEXT' or you can just let the program go through the list (every video five seconds). You can write a program like this in the `src/assets/` folder
+At the top of the screen you can click 'NEXT' or you can just let the program go through the list (every video five seconds). You can write a program like this in the `src/assets/` folder
 
 ```
 [
